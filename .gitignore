@@ -2,7 +2,7 @@
 node_modules/
 
 # IDE directories
-.idea
+.idea/
 
 # Mac OS files
 .DS_Store
