@@ -3,13 +3,17 @@
 
 // Include any default variable overrides here (though functions won't be available)
 $theme-colors: (
-        'primary': #e16f58,
-        'secondary': #ffe9e1,
-        'success': #fe5f55,
-        'light': #f7f0ed,
+        'primary': #5F6F52,
+        'secondary': #A9B388,
+        'light': #CCA68B,
         'dark': #070707,
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 // Then add additional custom code here
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  font-family: "Nunito", sans-serif;
+}
