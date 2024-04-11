@@ -30,11 +30,11 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #5F6F52;
+  --bs-primary: #CCA68B;
   --bs-secondary: #A9B388;
   --bs-light: #CCA68B;
   --bs-dark: #070707;
-  --bs-primary-rgb: 95, 111, 82;
+  --bs-primary-rgb: 204, 166, 139;
   --bs-secondary-rgb: 169, 179, 136;
   --bs-light-rgb: 204, 166, 139;
   --bs-dark-rgb: 7, 7, 7;
@@ -122,8 +122,8 @@
   color-scheme: dark;
   --bs-body-color: #dee2e6;
   --bs-body-color-rgb: 222, 226, 230;
-  --bs-body-bg: #212529;
-  --bs-body-bg-rgb: 33, 37, 41;
+  --bs-body-bg: #6f4e37;
+  --bs-body-bg-rgb: 111, 78, 55;
   --bs-emphasis-color: #fff;
   --bs-emphasis-color-rgb: 255, 255, 255;
   --bs-secondary-color: rgba(222, 226, 230, 0.75);
@@ -163,7 +163,7 @@
   --bs-link-hover-color: #8bb9fe;
   --bs-link-color-rgb: 110, 168, 254;
   --bs-link-hover-color-rgb: 139, 185, 254;
-  --bs-code-color: #e685b5;
+  --bs-code-color: #fbfbfb;
   --bs-highlight-color: #dee2e6;
   --bs-highlight-bg: #664d03;
   --bs-border-color: #495057;
@@ -3029,9 +3029,10 @@ textarea.form-control-lg {
 
 .btn-outline-primary {
   --bs-btn-color: #5F6F52;
-  --bs-btn-border-color: #5F6F52;
+  --bs-btn-border-color: #313b28;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #5F6F52;
+  --bs-btn-hover-border-radius: 3.5rem;
   --bs-btn-hover-border-color: #5F6F52;
   --bs-btn-focus-shadow-rgb: 95, 111, 82;
   --bs-btn-active-color: #fff;
@@ -4209,6 +4210,7 @@ textarea.form-control-lg {
 }
 
 .card-title {
+  align-self : justify;
   margin-bottom: var(--bs-card-title-spacer-y);
   color: var(--bs-card-title-color);
 }
@@ -4298,6 +4300,7 @@ textarea.form-control-lg {
 @media (min-width: 576px) {
   .card-group {
     display: flex;
+    align-items: stretch;
     flex-flow: row wrap;
   }
   .card-group > .card {
@@ -4611,7 +4614,7 @@ textarea.form-control-lg {
   font-weight: var(--bs-badge-font-weight);
   line-height: 1;
   color: var(--bs-badge-color);
-  text-align: center;
+  text-align: left;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: var(--bs-badge-border-radius);
